@@ -448,6 +448,7 @@ class HtmlParser extends StatelessWidget {
                     )
                   : Container(height: 0, width: 0),
               // Text("\t", textAlign: TextAlign.right),
+              Padding(padding: EdgeInsets.only(left: 10.0)),
               Expanded(
                   child: Padding(
                       padding: tree.style.listStylePosition ==
